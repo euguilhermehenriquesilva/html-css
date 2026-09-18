@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando hover</title>
+    <style>
+        div{
+            font-weight:bold;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        div:hover > p{
+            display: block;
+            font-weight: bolder;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola Mundo</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+        Passe o mouse aqui &dollar;
+        <p>TEXTO ESCONDIDO!</p>
+    </div>
+    <P>FIM DO EXERCICIO!</P>
+</body>
+</html>
